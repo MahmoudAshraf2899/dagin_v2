@@ -1,0 +1,302 @@
+@font-face {
+font-family: 'MadaniArabic-SemiBold';  
+src: url('../Assets/fonts/alfont_com_Madani-Arabic-Semi-Bold.ttf') format('truetype');
+font-weight: normal;
+font-style: normal;
+}
+@font-face {
+font-family: 'MadaniArabic-Medium';  
+src: url('../Assets/fonts/alfont_com_Madani-Arabic-Medium.ttf') format('truetype');
+font-weight: normal;
+font-style: normal;
+}
+@font-face {
+font-family: 'MadaniArabic-ExtraLight';  
+src: url('../Assets/fonts/alfont_com_Madani-Arabic-Extra-Light.ttf') format('truetype');
+font-weight: normal;
+font-style: normal;
+}
+
+@font-face {
+font-family: 'MadaniArabic-Light';  
+src: url('../Assets/fonts/alfont_com_Madani-Arabic-Light.ttf') format('truetype');
+font-weight: normal;
+font-style: normal;
+}
+
+@font-face {
+font-family: 'MadaniArabic-Regular';  
+src: url('../Assets/fonts/alfont_com_Madani-Arabic-Regular.ttf') format('truetype');
+font-weight: normal;
+font-style: normal;
+}
+.mission-active{
+display: inline-flex;
+height: 40px;
+padding: 8px 12px;
+justify-content: center;
+align-items: center;
+gap: 8px;
+flex-shrink: 0;
+border-radius: 8px;
+background: #F2FBEF;
+color: #70D44B;
+text-align: right;
+font-family: MadaniArabic-SemiBold;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 160%;
+cursor: pointer;
+
+}    
+.mission{
+display: inline-flex;
+height: 40px;
+padding: 8px 12px;
+justify-content: center;
+align-items: center;
+gap: 8px;
+flex-shrink: 0;
+color: var(--greyscale-500, #64748B);
+text-align: right;
+font-family: MadaniArabic-Medium;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 160%; 
+letter-spacing: 0.2px;
+cursor: pointer;
+}
+.filter{
+display: flex;
+width: 99px;
+height: 40px;
+padding: 8px 12px 8px 17px;
+justify-content: center;
+align-items: center;
+gap: 8px;
+flex-shrink: 0;
+border-radius: 8px;
+background: #F8FAFC;
+color: var(--greyscale-500, #64748B);
+text-align: right;
+font-family: MadaniArabic-Medium;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 160%; 
+letter-spacing: 0.2px;
+cursor: pointer; 
+
+}
+.add{
+display: flex;
+width: 134px;
+height: 40px;
+padding: 8px 12px 8px 17px;
+justify-content: center;
+align-items: center;
+gap: 8px;
+flex-shrink: 0; 
+border-radius: 8px;
+background: #124734;
+color: #FFF;
+text-align: right;
+font-family: MadaniArabic-Medium;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 160%;
+letter-spacing: 0.2px; 
+cursor: pointer; 
+}
+.mission-type{
+color: var(--grey-01, #A7AEC1);
+text-align: right;
+font-family: MadaniArabic-Regular;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 160%;
+}
+.mission-title{
+color: var(--black-01, #2C3659);
+text-align: right;
+font-family: MadaniArabic-SemiBold;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 130%;    
+}
+.price-section{
+display: flex;
+padding: 6px 8px;
+justify-content: center;
+align-items: center;
+border-radius: 8px;
+background: rgba(112, 212, 75, 0.11);
+gap: 6px;
+color: #70D44B;
+text-align: right;
+font-family: MadaniArabic-Medium;
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: 130%; /* 15.6px */
+}
+.section{
+display: flex;
+padding: 6px 8px;
+justify-content: center;
+align-items: center;
+gap: 6px;
+color: var(--grey-01, #A7AEC1);
+text-align: right;
+font-family: MadaniArabic-Medium;
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: 130%;
+}
+.pending-btn{
+display: flex;
+width: 81px;
+height: 28.459px;
+padding: 8.757px 13.135px;
+justify-content: center;
+align-items: center;
+gap: 10.946px;
+flex-shrink: 0;
+border-radius: 54.73px;
+background: var(--secondary-amber-50, #FFFBEB);
+color: var(--secondary-amber-500-base, #F6A723);
+text-align: center;
+font-family: MadaniArabic-Regular;
+font-size: 10.946px;
+font-style: normal;
+font-weight: 400;
+line-height: 160%; /* 17.514px */
+}
+.not-assigned{
+display: flex;
+width: 93px;
+padding: 6px 8px;
+justify-content: center;
+align-items: center;
+gap: 6px;
+border-radius: 8px;
+background: var(--lgrey-02, #F9F9F9);
+color: var(--grey-01, #A7AEC1);
+text-align: right;
+font-family: MadaniArabic-Medium;
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: 130%; 
+}
+.underimplment-btn{
+display: flex;
+width: 120px;
+height: 28px;
+padding: 8.757px 13.135px;
+justify-content: center;
+align-items: center;
+gap: 10.946px;
+flex-shrink: 0;
+border-radius: 54.73px;
+background: rgba(195, 242, 203, 0.50);
+color: var(--green-01, #4CD964);
+text-align: center;
+font-family: MadaniArabic-Regular;
+font-size: 10.946px;
+font-style: normal;
+font-weight: 400;
+line-height: 160%; 
+}
+.assigned-to{
+display: inline-flex;
+padding: 5px 8.364px 4px 0px;
+align-items: flex-end;
+gap: 5.818px;
+border-radius: 8px;
+background: var(--lgrey-02, #F9F9F9);
+}
+.assign-text{
+color: var(--grey-01, #A7AEC1);
+text-align: right;
+font-family: MadaniArabic-Medium;
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: 130%; 
+}
+.assign-user{
+color: var(--da-black-03-line, #292E32);
+font-family: MadaniArabic-Medium;
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: 130%;
+}
+.avatar-mission{
+    width: 19px;
+    height: 19px;
+}
+.late-btn{
+display: flex;
+width: 120px;
+height: 28px;
+padding: 8.757px 13.135px;
+justify-content: center;
+align-items: center;
+gap: 10.946px;
+flex-shrink: 0;
+border-radius: 54.73px;
+background: rgba(230, 0, 25, 0.09);
+color: var(--red-01, #E60019);
+text-align: center;
+font-family: MadaniArabic-Regular;
+font-size: 10.946px;
+font-style: normal;
+font-weight: 400;
+line-height: 160%; 
+}
+.evaluation-btn{
+display: flex;
+width: 145px;
+height: 28.459px;
+padding: 8.757px 13.135px;
+justify-content: center;
+align-items: center;
+gap: 10.946px;
+flex-shrink: 0;
+border-radius: 54.73px;
+background: var(--secondary-amber-50, #FFFBEB);
+color: var(--secondary-amber-500-base, #F6A723);
+text-align: center;
+font-family: MadaniArabic-Regular;
+font-size: 10.946px;
+font-style: normal;
+font-weight: 400;
+line-height: 160%; /* 17.514px */
+}
+.finished-btn{
+display: flex;
+width: 120px;
+height: 28px;
+padding: 8.757px 13.135px;
+justify-content: center;
+align-items: center;
+gap: 10.946px;
+flex-shrink: 0;
+border-radius: 54.73px;
+background: rgba(195, 242, 203, 0.50);
+color: var(--green-01, #4CD964);
+text-align: center;
+font-family: MadaniArabic-Regular;
+font-size: 10.946px;
+font-style: normal;
+font-weight: 400;
+line-height: 160%; 
+}

@@ -1,0 +1,141 @@
+@font-face {
+font-family: 'MadaniArabic-SemiBold';  
+src: url('../Assets/fonts/alfont_com_Madani-Arabic-Semi-Bold.ttf') format('truetype');
+font-weight: normal;
+font-style: normal;
+}
+@font-face {
+font-family: 'MadaniArabic-Medium';  
+src: url('../Assets/fonts/alfont_com_Madani-Arabic-Medium.ttf') format('truetype');
+font-weight: normal;
+font-style: normal;
+}
+@font-face {
+font-family: 'MadaniArabic-ExtraLight';  
+src: url('../Assets/fonts/alfont_com_Madani-Arabic-Extra-Light.ttf') format('truetype');
+font-weight: normal;
+font-style: normal;
+}
+
+@font-face {
+font-family: 'MadaniArabic-Light';  
+src: url('../Assets/fonts/alfont_com_Madani-Arabic-Light.ttf') format('truetype');
+font-weight: normal;
+font-style: normal;
+}
+
+@font-face {
+font-family: 'MadaniArabic-Regular';  
+src: url('../Assets/fonts/alfont_com_Madani-Arabic-Regular.ttf') format('truetype');
+font-weight: normal;
+font-style: normal;
+}
+.movement-active{
+display: inline-flex;
+height: 40px;
+padding: 8px 12px;
+justify-content: center;
+align-items: center;
+gap: 8px;
+flex-shrink: 0;
+border-radius: 8px;
+background: #F1FAEE;
+color: #70D44B;
+text-align: right;
+font-family: MadaniArabic-SemiBold;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 160%; /* 22.4px */
+cursor: pointer;
+
+}
+.movement{
+display: inline-flex;
+height: 40px;
+padding: 8px 12px;
+justify-content: center;
+align-items: center;
+gap: 8px;
+flex-shrink: 0;
+color: var(--greyscale-500, #64748B);
+text-align: right;
+font-family: MadaniArabic-Medium;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 160%; /* 22.4px */
+letter-spacing: 0.2px;
+cursor: pointer;
+}
+.filterWallet{
+display: flex;
+width: 270px;
+height: 40px;
+padding: 8px 12px 8px 17px;
+justify-content: center;
+align-items: center;
+gap: 8px;
+flex-shrink: 0;
+border-radius: 8px;
+background: #e4e7e9;
+color: var(--greyscale-500, #64748B);
+text-align: center;
+font-family: MadaniArabic-Medium;
+font-size: 0.8rem;
+font-style: normal;
+font-weight: 400;
+line-height: 160%; /* 22.4px */
+letter-spacing: 0.2px;
+background-image: url('../Assets/images/calendar-minus\ 1.svg'); 
+background-position: calc(100% - 10px) center; 
+background-repeat: no-repeat;
+background-size: 6%;
+
+}
+.rmdp-week-day{
+    color:#70D44B
+}
+.rmdp-range{
+    background-color: #70D44B;
+}
+.rmdp-arrow{
+  border:  solid #70D44B;
+  border-width: 0 2px 2px 0;
+}
+.rmdp-range-hover{
+    background-color: #70D44B;
+}
+.wallet-titles{
+color: #64748B;
+font-family: MadaniArabic-Regular;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+#wallet-table>thead>tr :not(.th:first-child,.th:last-child){
+border-top-width: unset;
+--tw-border-opacity: 0;
+border-bottom-width: 1px;
+border-color: rgb(var(--gray-6)/var(--tw-border-opacity));
+border-top-width: 1px;
+}
+#wallet-body{
+    background-color: #F1F5F9;
+}
+.table>thead>tr th:last-child{
+    
+}
+.wallet-th{
+    background-color: #F1F5F9;
+}
+.table>thead>tr>th{
+    background-color: #F1F5F9;
+}
+.tr-body{
+    margin:0px 10px 10px 10px;
+    border-radius: 10px;
+    background: var(--white-general, #FFF);
+    box-shadow: 0px 4px 120px 0px rgba(169, 173, 180, 0.15);
+}

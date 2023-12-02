@@ -1,0 +1,78 @@
+@font-face {
+ font-family: 'MadaniArabic-SemiBold';  
+ src: url('../Assets/fonts/alfont_com_Madani-Arabic-Semi-Bold.ttf') format('truetype');
+ font-weight: normal;
+ font-style: normal;
+}
+ @font-face {
+font-family: 'MadaniArabic-Medium';  
+src: url('../Assets/fonts/alfont_com_Madani-Arabic-Medium.ttf') format('truetype');
+font-weight: normal;
+font-style: normal;
+ }
+ @font-face {
+font-family: 'MadaniArabic-ExtraLight';  
+src: url('../Assets/fonts/alfont_com_Madani-Arabic-Extra-Light.ttf') format('truetype');
+font-weight: normal;
+font-style: normal;
+ }
+  
+@font-face {
+font-family: 'MadaniArabic-Light';  
+src: url('../Assets/fonts/alfont_com_Madani-Arabic-Light.ttf') format('truetype');
+font-weight: normal;
+font-style: normal;
+}
+.direction{
+direction: rtl;
+}
+.main-menu{
+color: var(--greyscale-400, #94A3B8);
+font-family: MadaniArabic-SemiBold;
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: 160%; /* 19.2px */
+}
+.active-element{
+display: flex;
+width: 218px;
+height: 48px;
+padding: 0px 16px;
+justify-content: flex-start;
+align-items: center;
+gap: 16px;
+border-radius: 12px;
+background: rgba(112, 212, 75, 0.09);
+}
+.active-element span {
+color: #70D44B;
+text-align: right;
+/* body/medium/bold */
+font-family: MadaniArabic-SemiBold;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 160%; /* 22.4px */
+}
+.normal-element{
+display: flex;
+width: 218px;
+height: 48px;
+padding: 0px 16px;
+justify-content: flex-start;
+align-items: center;
+gap: 16px;
+border-radius: 12px;
+}
+.normal-element span{
+color: var(--greyscale-500, #64748B);
+text-align: right;
+/* body/medium/medium */
+font-family: MadaniArabic-Medium;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 160%; /* 22.4px */
+letter-spacing: 0.2px;
+}
